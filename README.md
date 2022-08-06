@@ -107,3 +107,4 @@ Requirements:
   - Made the breadcrumb item clickable if the buyer filter is applied and the selected buyer's name in the breadcrumb
   - Fixed the search API to search through the whole title (rather than just the prefix)
   - Fixed the search API to also look for the search query inside the record description
+  - Added a new class in App.css

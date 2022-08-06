@@ -1,16 +1,13 @@
 import { useState } from "react";
+import AnchorLink from "antd/lib/anchor/AnchorLink";
 import "antd/dist/antd.css";
 import { Breadcrumb, Button, Layout, Menu } from "antd";
 import { Content, Footer, Header } from "antd/lib/layout/layout";
-import RecordSearchPage from "./RecordSearchPage";
+import RecordSearchPage from "./components/RecordSearchPage";
 import Sider from "antd/lib/layout/Sider";
 import "./App.css";
-import AnchorLink from "antd/lib/anchor/AnchorLink";
 
-export interface buyer {
-  name: string;
-  id: string;
-}
+import { buyer } from "./types";
 
 function App() {
   const [selectedBuyerState, setSelectedBuyerState] = useState<buyer | null>();
